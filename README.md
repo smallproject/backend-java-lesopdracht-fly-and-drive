@@ -20,4 +20,4 @@
 
 - Instantieer objecten voor deze subclasses vanuit _main()_ en laat ze rijden en vliegen.
 
-Bonus: Voeg een Aiport class toe met een lijst van voertuigen die kunnen vliegen. Genereer random de vulling voor de lijst.
+Bonus: Voeg een Airport class toe met een lijst van voertuigen die kunnen vliegen. Genereer random de vulling voor de lijst.
