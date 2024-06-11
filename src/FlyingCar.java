@@ -5,7 +5,9 @@ public class FlyingCar extends Vehicle implements Driveable,Flyable {
     private String name;
     private String model;
 
-    public FlyingCar(String name, String model) {
+    public FlyingCar(String name, String model, int speed, float weight) {
+        super(speed, weight);
+
         this.name = name;
         this.model = model;
     }

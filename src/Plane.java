@@ -7,7 +7,9 @@ public class Plane extends Vehicle implements Flyable{
     private String name;
     private String model;
 
-    public Plane(String name, String model) {
+    public Plane(String name, String model, int speed, float weight) {
+        super(speed, weight);
+
         this.name = name;
         this.model = model;
     }

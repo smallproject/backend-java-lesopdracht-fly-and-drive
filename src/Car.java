@@ -5,7 +5,8 @@ public class Car extends Vehicle implements Driveable{
     private String name;
     private String model;
 
-    public Car(String name, String model) {
+    public Car(String name, String model, int speed, float weight) {
+        super(speed, weight);
         this.name = name;
         this.model = model;
     }
